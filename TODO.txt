@@ -1,0 +1,12 @@
+Main tasks: 
+- populate pages with images and data
+- go thru and fulfill stories
+
+Icebox: 
+- Light / dark themes
+- Next Page link (persistent) - look into NavLink in RR
+- Creative Commons license, icons for github and IG
+
+Revisit: 
+- change "Projects" to "Code"
+- update resume / CV
