@@ -1,0 +1,174 @@
+/* generic styling / resetting defaults */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+    background-color: #d1dbda;
+  }
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+#page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-family: "Karla", sans-serif;
+  font-weight: 300;
+}
+
+/* setting margins between sections */
+
+#header, #footer {
+    margin: 1.5rem 0 2rem 0;
+    /* font-family: "Karla"; */
+}
+
+#display {
+    margin-bottom: 2rem;
+}
+
+#footer {
+    margin: 1rem 0 1rem 0;
+    justify-self: flex-end;
+}
+
+
+
+/* header stuff */
+
+h1 {
+  font-weight: 200;
+  font-size: 3rem;
+  font-style: italic;
+  margin-bottom: 1.5rem;
+}
+
+#header ul {
+  display: flex;
+  width: 50vw;
+  justify-content: space-between;
+  font-style: italic;
+}
+
+#footer ul {
+  display: flex;
+  /* width: 50vw; */
+  justify-content: space-around;
+}
+
+#header a {
+    font-weight: 400;
+}
+
+#header a:hover {
+    font-weight: 700;
+}
+
+#nav-home a {
+  color: #1c59dd;
+}
+
+#nav-about a {
+  color: #7100e8;
+}
+
+#nav-projects a {
+  color: #ad0073;
+}
+
+#nav-contact a {
+  color: #ce6200;
+}
+
+#nav-cv a {
+  color: #cc022e;
+}
+
+#home img {
+  margin-bottom: 1rem;
+  margin-top: .5rem;
+  max-width: 50vw;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px gray;
+}
+
+#home h2 {
+  padding: 1em;
+  margin-bottom: 1em;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+}
+
+.info-img {
+  display: flex;
+  width: 75vw;
+  text-align: justify;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.info-img img {
+  max-width: 30vw;
+  object-fit: contain;
+}
+
+.info-img p {
+  margin-left: 1rem;
+  width: 35vw;
+}
+
+.project {
+    max-width: 55vw;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 0.75em;
+    border-radius: 3px;
+}
+
+.project img {
+  max-width: 55vw;
+  text-align: center;
+  border-radius: 3px;
+  box-shadow: -1px 1px 2px gray;
+}
+
+.project h3 {
+    text-align: left;
+    margin: 0.5em 0 0.5em 0;
+}
+
+.project p {
+    text-align: justify;
+}
+
+.project a {
+  text-align: left;
+  margin-left: 0;
+  padding-bottom: 1em;
+  color: blue;
+}
+
+.spacer {
+  height: 2rem;
+}
+
+ul,
+li {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
